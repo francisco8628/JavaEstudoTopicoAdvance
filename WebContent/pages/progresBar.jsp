@@ -51,29 +51,14 @@ text-shadow: 1px 1px 0 #fff;
 <h1>Barra com Jqeury</h1>
 <div id = "progressbar">
     <div class="progress-label">
-                     Carregando.vbvbvbvbvb..
+                     Carregando...
     
     </div>
 
 </div>
  
  <script type="text/javascript">
- 
-      $(function)() {
-	            var progressbar = $("#progressbar"),progresslabel=$(".progress-label");
-	   
-	            progressbar.progressbar =  ({//cria a barra no div
-	            value : false,	
-	            change : function () {
-					progresslabel.text(progressbar.progressbar('value')+"%");
-				}	
-	      })
-	   
-       })
- 
- 
- 
- 
+  
  function exibirBarra() {
 	var elem = document.getElementById("myBar");
 	var width = 1 ;
