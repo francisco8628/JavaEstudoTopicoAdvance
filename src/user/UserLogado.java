@@ -4,6 +4,8 @@ public class UserLogado {
 	
 	private String login;
 	private String senha;
+	
+	
 	public String getLogin() {
 		return login;
 	}
